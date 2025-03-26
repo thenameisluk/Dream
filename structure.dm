@@ -6,37 +6,41 @@ export name{//namespaces
     class e{//class
         //members private by default
         
-        pub sth:i32;
+        pub i32 sth;
         //or
         prv u8 a;//alternative
-        
+    pub:
         e()//constructor
         ~e()//destructor
         //methods
-        operator++(){//no need for void
+        operator++(){//no need for void (look class below for example with void)
             this.sth++;
         }//operator overloading
-        getSth():i32(){
+        i32 getSth(){
             if(false)
                 ret sth;//
             
             this.sth//last value is also return statement
         }
     };
+    e someE = e(...)//create e instance in place
+
     struct e{//stuct
         //members public by default
         //no constructors
-        //methods
+        //but methods, static and not static
     };
+
+    e someE = e{...}//create e instance in place
 
     
 
-    fun(uwu:i8):i32{
+    i32 fun(i8 uwu){
 
-    }
+    }//no need for ; after }
 
     //templates
-    fun<T>(a:T):T{
+    T fun<T>(T a){
         ret a;
     }
 
@@ -48,12 +52,13 @@ export name{//namespaces
         ~e()//destructor
         //methods
         
-        operator++(){//no need for void
+        void operator++(){//no need for void
             this.sth++;
         }//operator overloading
         
-        getSth():T(){
+        T getSth(){
             ret sth;
         }
     };
 };
+

@@ -14,7 +14,7 @@ variant e{
 
 
 //variant
-match e{
+switch e{
     a(e):{
 
     }
@@ -22,7 +22,7 @@ match e{
     _:
 }
 //enum
-match e{
+switch (e){//() are optional
     a,b:{//combine
 
     },
@@ -37,12 +37,12 @@ match e{
 //without need for combining enum with arrays
 
 //type specification is optional
-i32 sack animal(name:str,luck:i32){
+i32 sack animal(str name,i32 luck){
     cat:{"cat",100}=0,//=optional
     dog:{"dog",40}//static properties
 }
 
-fun(a:animal){
+fun(animal a){//a is an int but can be used to refference it's properties
     call(a.name)
 
     if(a==animal::cat){

@@ -1,8 +1,8 @@
-if (a==b){//if someVariantWithA is a then refference to e
+if (a==b){//any int or bool (expressions result in bool)
 
 }
 
-if let a(e&) = someVariantWithA{//if someVariantWithA is a then refference to e
+if i32 a(e&) = someVariantWithA{//if someVariantWithA is a then refference to e
 
 }
 
@@ -16,16 +16,16 @@ while(true){//infinit
 
 }
 
-for(n in 0..10){//x..y ranges
+for n in 0..10 {//x..y ranges
 
 }
 //both valid
-for (let i = 0;i<10;i++){
+for (i32 i = 0;i<10;i++){
 
 }
 
 
-while let Some(i) = optional{while optional is Some then assign value to i
+while i32 Some(i) = optional{while optional is Some then assign value to i
     
 }
 

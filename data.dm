@@ -1,20 +1,16 @@
-let //no need to specify obvious types
 i32 a//alternative
 const/static //mutability by default, but variable never modified will give warning
-let& refference
-let* pointer
+i32& refference
+i32* pointer
 
 //arrays are static length
-let arr:i32[] =  {0,0,2}//:i32[3]
-//or
-let arr =  {0,0,2}
-//or
 i32[] arr =  {0,0,2}
 
 
 
-let e:(u32,i8) = (0,0);//tupples
-let (a,b) = e;//extraction
+(u32,i8) e: = (0,0);//tupples
+(a,b) = e;//extraction
+u32 a& = e(0);//extraction
 
 type color u32//type definition
 
@@ -36,5 +32,7 @@ cstr/str/vec //types built-in
 /*
 cstr ascii
 str utf8
-vec T
+vec
+uptr<...>//unique pointer
+sptr<...>//shared pointer
 */
