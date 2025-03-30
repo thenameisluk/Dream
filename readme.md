@@ -7,7 +7,6 @@ some mockups of the language can be found in ```.dm``` files
 
 ### Roadmap
 
-- [ ] figure out what makes rust special
 - [ ] make specification
 - [ ] write interpreter
 - [ ] write compiler (using interpreter)
