@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(dream)
+project(dream-lang)
 
 
 set(interpreter-src 

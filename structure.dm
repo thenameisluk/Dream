@@ -62,3 +62,8 @@ export name{//namespaces
     };
 };
 
+//a comment
+#also a comment (for #! support)
+/*
+this too
+*/

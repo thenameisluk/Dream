@@ -1,18 +1,8 @@
-While (at least i think) i like the idea of rust
+I want to make a nice little language
 
-i really want a proper compiled OOP language
+for myself to enjoy coding again
 
-i don't like C++ header files and Javascripts
-
-sloopyness, i want something that feels good
-
-to write in that feels like home (C++) without
-
-all the draw backs with ability to still laverage
-
-C/C++ libraries
-
-some mockups of the language can be found in ```HelloWorld.dm```
+some mockups of the language can be found in ```.dm``` files
 
 
 ### Roadmap
@@ -20,20 +10,18 @@ some mockups of the language can be found in ```HelloWorld.dm```
 - [ ] figure out what makes rust special
 - [ ] make specification
 - [ ] write interpreter
-- [ ] write compiler
-- [ ] make the language self-hosted
+- [ ] write compiler (using interpreter)
 
 ### Sidequests
 
 - [ ] get a logo
 - [ ] write a languege server
 
-i know it might take time to get usable but when
+i used to love coding but now i feel burned out
 
-it's done, i'll finally be able to use "modern"
+and i can't see any way do help myself
 
-programming language with comfort
-
+'ve already taken long enough break from coding
 
 i really want this language to feel good it's a Dream
 
