@@ -7,14 +7,35 @@ some mockups of the language can be found in ```.dm``` files
 
 ### Roadmap
 
-- [ ] make specification
-- [ ] write interpreter
-- [ ] write compiler (using interpreter)
+- [ ] specification
+    - [ ] lexer
+    - [ ] parser
+    - [ ] abstract syntax tree
+- [ ] interpreter
+- [ ] compiler (self-hosted)
+
+### features
+
+implemented
+
+to-implement
+- functions
+- if
+- switch
+- variables
+- operators
+- structs
+- classes
+- enums
+- variants
+- sacks
+- templates
+- likely more
 
 ### Sidequests
 
 - [ ] get a logo
-- [ ] write a languege server
+- [ ] write a languege server provider
 
 i used to love coding but now i feel burned out
 
