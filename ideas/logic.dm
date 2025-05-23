@@ -8,25 +8,24 @@ if i32 a(e&) = someVariantWithA{//if someVariantWithA is a then refference to e
 
 //loops
 
-loop{//infinit
+loop name{//infinit
 
 }
 
-while(true){//infinit
+while name(true){//infinit
 
 }
 
-for n in 0..10 {//x..y ranges
+for name(n in 0..10){//x..y ranges
 
 }
 //both valid
-for (i32 i = 0;i<10;i++){
-
+for name(i32 i = 0;i<10;i++){
+    continue name;
 }
 
-
-while i32 Some(i) = optional{while optional is Some then assign value to i
-    
+while name(i32 Some(i) = optional){while optional is Some then assign value to i
+    break name;
 }
 
 //expressions

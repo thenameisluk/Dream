@@ -22,9 +22,10 @@ enum tokenType{
 
 class token{
     int line;
-    int character;
+    int position;
+    int len;
     tokenType type;
-    std::string name;
+    std::string data;
 };
 
 class file{
