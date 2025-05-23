@@ -8,7 +8,7 @@ some mockups of the language can be found in ```.dm``` files
 
 - [Simple "Just-in-time compilation"](./experiments/1-jit/readme.md)
 - [Analyzing elf fisrt attempt(mini project)](./experiments/1.5-anal/readme.md)
-- [Craftring possible smallest executable](./experiments/2-elfgen/readme.md)
+- [Crafting possible smallest executable](./experiments/2-elfgen/readme.md)
 
 ### Roadmap
 
