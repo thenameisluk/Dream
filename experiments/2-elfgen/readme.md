@@ -45,7 +45,7 @@ this one is self explanitory
 
 while it wouldn't be an issue if we were writing it in stream directly
 
-we weren't, we needed to have it somewhere in memory
+but it would introduce more issues, we needed to have it somewhere in memory
 
 **solution**
 
@@ -63,7 +63,7 @@ public:
 ```
 just malloc it
 
-i should have used vector this one would cause an issue with
+i could have used vector but this would cause an issue with
 the next problem
 
 everytime we don't have enough spece we just double it
@@ -103,18 +103,19 @@ sraw &operator<<(uint64_t v)
 ```
 i'm sure all this pointer stuff could make a rust dev cry but it works :3
 
-this way we can just
+but this way we can just
 ```cpp
 sraw elf;
 elf << (uint8_t)0x7F << 'E' << 'L' << 'F';
 ```
-to wite a begining of the elf file
+to write a begining of the elf file
 
 **2. need to predict the future**
 
 the thing with elf file is that it requires us to specify in the file
 things that are supposed to be written there in the future
-link offest to some other header further down the file
+
+like offest to some other header further down the file
 
 **soulution**
 
@@ -123,10 +124,7 @@ now this one was simple just make promises
 std::map<std::string, std::vector<uint64_t>> promises;
 void promise(byte_size size, std::string name)
 {
-    while (size + pointer >= capacity)
-    {
-        bump();
-    }
+    ...//irrelevant
     promises[name].push_back(pointer);
 
     pointer += size;
