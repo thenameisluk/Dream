@@ -100,7 +100,7 @@ sraw &operator<<(uint64_t v)
 ```
 i'm sure all this pointer stuff could make a rust dev cry but it works :3
 
-but this way we can just
+this way we can just
 ```cpp
 sraw elf;
 elf << (uint8_t)0x7F << 'E' << 'L' << 'F';
